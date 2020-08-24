@@ -15,7 +15,7 @@ Statistics show that inbound traffic is much higher than outbound traffic. So we
 
 After that, we have the following formula to calculate our Eff(Effective flow rate).
 
-![Eff formula](https://latex.codecogs.com/svg.latex?Eff=\frac{Outbound\%20Transfer}{Inbound\%20Transfer})
+![Eff formula](https://latex.codecogs.com/svg.latex?Eff=\frac{Outbound\\%20Transfer}{Inbound\\%20Transfer})
 
 And average eff:
 
