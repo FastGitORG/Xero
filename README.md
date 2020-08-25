@@ -19,4 +19,4 @@ After that, we have the following formula to calculate our EFR(Effective Flow Ra
 
 And average eff:
 
-![EFR formula](https://latex.codecogs.com/svg.latex?\overline{\text{EFR}}=\frac{\sum_{n=0}^{N_{last}-1}\text{EFR}_n}{N_\text{last}})
+![EFR formula](https://latex.codecogs.com/svg.latex?\overline{\text{EFR}}=\frac{\sum_{n=0}^{N_{\text{last}}-1}\text{EFR}_n}{N_\text{last}})
