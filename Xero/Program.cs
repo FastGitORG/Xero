@@ -35,14 +35,14 @@ namespace Xero
                 Console.WriteLine("Date: " + i.Date);
                 Console.WriteLine("In  : " + i.In);
                 Console.WriteLine("Out : " + i.Out);
-                Console.WriteLine("Eff : " + 100.0 * i.Eff + " %");
+                Console.WriteLine("EFR : " + 100.0 * i.EFR + "%");
                 countIn += i.In;
                 countOut += i.Out;
             }
             Console.WriteLine("==============================");
             Console.WriteLine("Total In : " + countIn);
             Console.WriteLine("Total Out: " + countOut);
-            Console.WriteLine("Avg. Eff : " + 100.0 * countOut / countIn + " %");
+            Console.WriteLine("Avg. EFR : " + 100.0 * countOut / countIn + "%");
             Console.WriteLine("==============================");
             Console.WriteLine("Finished! Press any key to exit...");
             Console.ReadKey();

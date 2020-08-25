@@ -5,6 +5,6 @@
         public string Date;
         public long In;
         public long Out;
-        public double Eff { get => 1.0 * Out / In; }
+        public double EFR { get => 1.0 * Out / In; }
     }
 }

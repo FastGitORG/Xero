@@ -15,8 +15,8 @@ Statistics show that inbound traffic is much higher than outbound traffic. So we
 
 After that, we have the following formula to calculate our EFR(Effective Flow Rate).
 
-![EFR formula](https://latex.codecogs.com/svg.latex?\text{EFR}=\frac{\text{Outbound\\%20Transfer}}{\text{Inbound\\%20Transfer}})
+![EFR formula](https://latex.codecogs.com/svg.latex?\text{EFR}=\frac{N_\text{Outbound\\%20Transfer}}{N_\text{Inbound\\%20Transfer}})
 
 And average eff:
 
-![EFR formula](https://latex.codecogs.com/svg.latex?\overline{\text{EFR}}=\frac{\sum_{n=0}^{Num_{last}-1}\text{EFR}_n}{Num_{last}})
+![EFR formula](https://latex.codecogs.com/svg.latex?\overline{\text{EFR}}=\frac{\sum_{n=0}^{N_{last}-1}\text{EFR}_n}{N_\text{last}})
