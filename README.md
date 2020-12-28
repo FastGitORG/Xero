@@ -11,7 +11,7 @@
 - Dogyun
 - None
 
-## Mathematic Model
+## Mathematics Model
 
 Since FastGit is a reverse proxy service, the proportion of the rest of the traffic is very low, so we can assume that the inbound and outbound data are equal.
 
@@ -21,6 +21,6 @@ After that, we have the following formula to calculate our EFR.
 
 ![EFR formula](https://latex.codecogs.com/svg.latex?\text{EFR}=\frac{N_\text{Outbound\\%20Transfer}}{N_\text{Inbound\\%20Transfer}})
 
-And average eff:
+And average EFR:
 
 ![EFR formula](https://latex.codecogs.com/svg.latex?\overline{\text{EFR}}=\frac{\sum_{n=0}^{N_{\text{last}}-1}\text{EFR}_n}{N_\text{last}})
