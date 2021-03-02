@@ -19,7 +19,7 @@ Statistics show that inbound traffic is much higher than outbound traffic. So we
 
 After that, we have the following formula to calculate our EFR.
 
-![EFR formula](https://latex.codecogs.com/svg.latex?\text{EFR}=\frac{N_\text{Outbound\\%20Transfer}}{N_\text{Inbound\\%20Transfer}})
+![EFR formula](https://latex.codecogs.com/svg.latex?\text{EFR}=\frac{N_\text{Outbound\%20Transfer}}{N_\text{Inbound\%20Transfer}})
 
 And average EFR:
 
